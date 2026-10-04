@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Yaniza & Fleurs | E-Catalog</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP ANNOUNCEMENT -->
+  <div class="announcement">
+    Handcrafted with love • Custom orders welcome • Davao Region
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+
+    <a href="#home" class="logo">
+      <span class="logo-circle">Y&F</span>
+
+      <span>
+        <strong>Yaniza & Fleurs</strong>
+        <small>thoughtful blooms, beautifully made</small>
+      </span>
+    </a>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#about">About</a>
+      <a href="#order">Order</a>
+    </nav>
+
+    <button class="cart-button" id="cartButton">
+      ♡
+      <span id="cartCount">0</span>
+    </button>
+
+  </header>
+
+
+  <!-- HERO -->
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-text">
+
+        <p class="eyebrow">YANIZA & FLEURS</p>
+
+        <h1>
+          Make the moment
+          <em>feel beautiful.</em>
+        </h1>
+
+        <p class="intro">
+          Handcrafted bouquets and thoughtful gifts for birthdays,
+          milestones, celebrations, and everyday sweetness.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#catalog" class="primary-button">
+            Explore Collection →
+          </a>
+
+          <a href="#order" class="secondary-button">
+            Custom Order
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- ANIMATED HERO ART -->
+      <div class="hero-art">
+
+        <div class="floating flower-one">✿</div>
+        <div class="floating flower-two">❀</div>
+        <div class="floating flower-three">✾</div>
+
+        <div class="hero-card back-card"></div>
+
+        <div class="hero-card front-card">
+
+          <div class="bouquet">
+            <span class="big-flower">✿</span>
+            <span class="big-flower flower-yellow">✾</span>
+            <span class="big-flower flower-pink">❀</span>
+
+            <div class="stem stem-one"></div>
+            <div class="stem stem-two"></div>
+            <div class="stem stem-three"></div>
+
+            <div class="bouquet-wrap"></div>
+
+          </div>
+
+          <div class="hero-caption">
+            <small>signature piece</small>
+            <strong>Blush Garden</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MOVING TICKER -->
+    <section class="ticker">
+
+      <div class="ticker-track">
+
+        <span>HANDMADE WITH HEART</span>
+        <b>✦</b>
+
+        <span>CUSTOM COLORS</span>
+        <b>✦</b>
+
+        <span>READY TO GIFT</span>
+        <b>✦</b>
+
+        <span>MADE WITH LOVE</span>
+        <b>✦</b>
+
+        <span>HANDMADE WITH HEART</span>
+        <b>✦</b>
+
+        <span>CUSTOM COLORS</span>
+        <b>✦</b>
+
+      </div>
+
+    </section>
+
+
+    <!-- CATALOG -->
+    <section class="catalog" id="catalog">
+
+      <div class="section-heading">
+
+        <div>
+          <p class="eyebrow">SHOP THE CATALOG</p>
+
+          <h2>
+            Little things<br>
+            that say a lot.
+          </h2>
+        </div>
+
+        <p>
+          Browse our curated collection of handcrafted
+          floral gifts.
+        </p>
+
+      </div>
+
+
+      <!-- FILTER BUTTONS -->
+      <div class="filters">
+
+        <button class="filter active" data-filter="all">
+          All
+        </button>
+
+        <button class="filter" data-filter="bouquet">
+          Bouquets
+        </button>
+
+        <button class="filter" data-filter="gift">
+          Gift Sets
+        </button>
+
+        <button class="filter" data-filter="best">
+          Best Sellers
+        </button>
+
+      </div>
+
+
+      <!-- PRODUCTS -->
+      <div class="product-grid">
+
+
+        <!-- PRODUCT 1 -->
+        <article
+          class="product-card"
+          data-category="bouquet best"
+          data-name="Blush Garden"
+          data-price="450"
+        >
+
+          <div class="product-image pink">
+            <span class="product-flower">✿</span>
+            <span class="small-flower">❀</span>
+            <span class="badge">BEST SELLER</span>
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <h3>Blush Garden</h3>
+              <p>Soft pink bloom palette</p>
+            </div>
+
+            <strong>₱450</strong>
+
+          </div>
+
+          <button class="add-button">
+            Add to Bag
+          </button>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+        <article
+          class="product-card"
+          data-category="bouquet"
+          data-name="Sunlit Wrap"
+          data-price="380"
+        >
+
+          <div class="product-image yellow">
+            <span class="product-flower">✾</span>
+            <span class="small-flower">✿</span>
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <h3>Sunlit Wrap</h3>
+              <p>Cheerful yellow mix</p>
+            </div>
+
+            <strong>₱380</strong>
+
+          </div>
+
+          <button class="add-button">
+            Add to Bag
+          </button>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+        <article
+          class="product-card"
+          data-category="gift best"
+          data-name="Petal & Note"
+          data-price="520"
+        >
+
+          <div class="product-image lavender">
+
+            <span class="product-flower">❀</span>
+            <span class="small-flower">✾</span>
+
+            <span class="badge">POPULAR</span>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <h3>Petal & Note</h3>
+              <p>Mini bouquet + message card</p>
+            </div>
+
+            <strong>₱520</strong>
+
+          </div>
+
+          <button class="add-button">
+            Add to Bag
+          </button>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+        <article
+          class="product-card"
+          data-category="gift"
+          data-name="Sweet Little Box"
+          data-price="650"
+        >
+
+          <div class="product-image beige">
+
+            <span class="product-flower">✿</span>
+            <span class="small-flower">❀</span>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <h3>Sweet Little Box</h3>
+              <p>Flowers + tiny keepsakes</p>
+            </div>
+
+            <strong>₱650</strong>
+
+          </div>
+
+          <button class="add-button">
+            Add to Bag
+          </button>
+
+        </article>
+
+
+        <!-- PRODUCT 5 -->
+        <article
+          class="product-card"
+          data-category="bouquet best"
+          data-name="Cream & Rose"
+          data-price="490"
+        >
+
+          <div class="product-image cream">
+
+            <span class="product-flower">❀</span>
+            <span class="small-flower">✿</span>
+
+            <span class="badge">NEW</span>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <h3>Cream & Rose</h3>
+              <p>Neutral romantic tones</p>
+            </div>
+
+            <strong>₱490</strong>
+
+          </div>
+
+          <button class="add-button">
+            Add to Bag
+          </button>
+
+        </article>
+
+
+        <!-- PRODUCT 6 -->
+        <article
+          class="product-card"
+          data-category="gift"
+          data-name="Bloom Letter"
+          data-price="340"
+        >
+
+          <div class="product-image brown">
+
+            <span class="product-flower">✾</span>
+            <span class="small-flower">❀</span>
+
+          </div>
+
+          <div class="product-info">
+
+            <div>
+              <h3>Bloom Letter</h3>
+              <p>Single-stem keepsake set</p>
+            </div>
+
+            <strong>₱340</strong>
+
+          </div>
+
+          <button class="add-button">
+            Add to Bag
+          </button>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+      <div class="about-art">
+
+        <div class="about-flower">
+          ❀
+        </div>
+
+        <div class="about-label">
+          MADE SLOWLY<br>
+          MADE LOVINGLY
+        </div>
+
+      </div>
+
+
+      <div class="about-text">
+
+        <p class="eyebrow">
+          A SMALL BUSINESS WITH A BIG HEART
+        </p>
+
+        <h2>
+          For the moments you want them to remember.
+        </h2>
+
+        <p>
+          Every piece is prepared with a simple idea:
+          gifting should feel personal.
+        </p>
+
+        <p>
+          Choose from ready-to-order designs or request
+          your own colors, mood, occasion, and budget.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ORDER -->
+    <section class="order" id="order">
+
+      <div>
+
+        <p class="eyebrow">
+          READY WHEN YOU ARE
+        </p>
+
+        <h2>
+          Let's make something lovely.
+        </h2>
+
+        <p>
+          Tell us your preferred design, budget, date,
+          and delivery details.
+        </p>
+
+      </div>
+
+      <a
+        class="primary-button light"
+        href="mailto:hello@yanizaandfleurs.com?subject=Yaniza%20%26%20Fleurs%20Order"
+      >
+        Request an Order →
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div>
+      <strong>Yaniza & Fleurs</strong>
+      <span>Handcrafted floral gifting studio</span>
+    </div>
+
+    <a href="#home">
+      Back to top ↑
+    </a>
+
+  </footer>
+
+
+  <!-- SHOPPING BAG -->
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+
+    <button class="close-cart" id="closeCart">
+      ×
+    </button>
+
+    <p class="eyebrow">
+      YOUR BAG
+    </p>
+
+    <h2>
+      Selected pieces
+    </h2>
+
+    <div id="cartItems">
+      <p class="empty-cart">
+        Your bag is empty.
+      </p>
+    </div>
+
+    <div class="cart-total">
+
+      <span>
+        Estimated total
+      </span>
+
+      <strong id="cartTotal">
+        ₱0
+      </strong>
+
+    </div>
+
+    <a
+      class="primary-button"
+      href="mailto:hello@yanizaandfleurs.com?subject=Yaniza%20%26%20Fleurs%20Order"
+    >
+      Request This Order
+    </a>
+
+  </aside>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
